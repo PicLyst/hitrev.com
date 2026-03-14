@@ -9,10 +9,10 @@ body {
 }
 .site-logo {
   display: block;
-  max-width: 100px;
+  max-width: 50px;
   height: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 nav {
   margin-bottom: 30px;

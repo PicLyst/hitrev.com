@@ -214,6 +214,7 @@ h3 {
   display: block;
   margin: 0 0 24px;
 }
+
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

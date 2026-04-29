@@ -3,64 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PicLyst | Hit Rev</title>
- <link rel="icon" type="image/png" href="favicon.png" />
+  <meta
+    name="description"
+    content="PicLyst is a visual organization app from Hit Rev Enterprises that helps people organize photos, notes, checklists, links, and real-world information."
+  />
+  <title>PicLyst | Visual Organization App</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="piclyst.html">PicLyst</a> |
-    <a href="support.html">Support</a> |
-    <a href="privacy.html">Privacy</a> |
-    <a href="terms.html">Terms</a> |
-    <a href="delete-account.html">Delete Account</a> |
-    <a href="about.html">About</a>
-  </nav>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Hit Rev Enterprises home">
+      <img src="hitrev-logo.png" alt="Hit Rev Enterprises logo" class="site-logo" />
+      <span>Hit Rev Enterprises</span>
+    </a>
 
-  <h1>PicLyst</h1>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="piclyst.html">PicLyst</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="delete-account.html">Delete Account</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
 
-  <p>
-    PicLyst is a visual organization app by Hit Rev Enterprises, LLC.
-  </p>
+  <main>
+    <section class="hero page-hero">
+      <div class="hero-content">
+        <p class="eyebrow">PicLyst</p>
+        <h1>Organize information visually.</h1>
+        <p class="hero-text">
+          PicLyst helps you keep track of spaces, items, notes, links, checklists,
+          and layered details by attaching information directly to photos and images.
+        </p>
 
-  <p>
-    PicLyst helps users organize spaces, items, and information by attaching notes,
-    links, and layered details directly to images. Instead of keeping information
-    separate from the thing it relates to, PicLyst keeps it visually connected.
-  </p>
+        <div class="hero-actions">
+          <a class="button primary" href="support.html">Get support</a>
+          <a class="button secondary" href="delete-account.html">Account help</a>
+        </div>
+      </div>
+    </section>
 
-  <h2>Features</h2>
+    <section class="product-card">
+      <div>
+        <p class="eyebrow">How it works</p>
+        <h2>A visual place for details that are hard to track in ordinary notes.</h2>
+        <p>
+          Instead of storing information in long lists or scattered files, PicLyst lets
+          you start with an image and add organized details exactly where they belong.
+        </p>
+      </div>
 
-  <ul>
-    <li>add tags to images to mark important items or areas</li>
-    <li>attach notes and links to tagged locations</li>
-    <li>organize content into boards</li>
-    <li>store and sync account-based content</li>
-    <li>use visual references to keep track of projects, spaces, and stored items</li>
-    <li>manage your account, including deletion from within the app</li>
-  </ul>
+      <div class="feature-grid">
+        <article>
+          <h3>Create boards</h3>
+          <p>Use photos or images as the starting point for organizing information.</p>
+        </article>
 
-  <h2>Accounts and Access</h2>
+        <article>
+          <h3>Add tags</h3>
+          <p>Place tags on specific areas so details stay connected to the right spot.</p>
+        </article>
 
-  <p>
-    PicLyst includes account-based features and may offer both free and paid access levels,
-    depending on feature availability.
-  </p>
+        <article>
+          <h3>Save details</h3>
+          <p>Add notes, checklists, links, and other useful information.</p>
+        </article>
 
-  <h2>Support and Policies</h2>
+        <article>
+          <h3>Go deeper</h3>
+          <p>Use layered organization to keep related information connected.</p>
+        </article>
+      </div>
+    </section>
 
-  <p>
-    For help with PicLyst, visit our <a href="support.html">Support</a> page or contact
-    us at <a href="mailto:info@piclyst.com">info@piclyst.com</a>.
-  </p>
+    <section class="info-panel">
+      <h2>Common uses</h2>
+      <p>
+        PicLyst is designed for everyday organization, including storage boxes,
+        home organization, manuals, appliance details, photo-based reminders,
+        project notes, and other information that is easier to manage visually.
+      </p>
+    </section>
 
-  <p>
-    Please also review our <a href="privacy.html">Privacy Policy</a>,
-    <a href="terms.html">Terms of Use</a>, and
-    <a href="delete-account.html">Delete Account</a> page.
-  </p>
+    <section class="info-panel">
+      <h2>Support</h2>
+      <p>
+        For help with PicLyst, visit the <a href="support.html">Support</a> page or email
+        <a href="mailto:info@piclyst.com">info@piclyst.com</a>.
+      </p>
+    </section>
+  </main>
 
-  <p>&copy; 2026 Hit Rev Enterprises, LLC. All rights reserved.</p>
+  <footer class="site-footer">
+    <p>&copy; 2026 Hit Rev Enterprises, LLC. All rights reserved.</p>
+  </footer>
 </body>
 </html>

@@ -209,10 +209,10 @@ h3 {
 }
 
 .piclyst-wordmark {
-  width: min(360px, 100%);
+  width: min(260px, 70%);
   height: auto;
   display: block;
-  margin: 0 0 24px;
+  margin: 0 0 22px;
 }
 
 .feature-grid {

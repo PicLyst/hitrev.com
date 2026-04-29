@@ -273,11 +273,17 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .product-visual {
-    justify-content: flex-start;
+    .product-visual {
+    justify-content: center;
   }
 
   .product-visual img {
-    width: min(220px, 80%);
+    width: min(150px, 55%);
+    margin: 0 auto;
+  }
+
+  .piclyst-wordmark {
+    width: min(190px, 62%);
+    margin-bottom: 18px;
   }
 }

@@ -190,7 +190,30 @@ h3 {
 .product-card > div:first-child {
   max-width: 760px;
 }
+.product-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.6fr);
+  align-items: center;
+  gap: 32px;
+}
 
+.product-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.product-visual img {
+  width: min(240px, 100%);
+  height: auto;
+  display: block;
+}
+
+.piclyst-wordmark {
+  width: min(360px, 100%);
+  height: auto;
+  display: block;
+  margin: 0 0 24px;
+}
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -243,5 +266,17 @@ h3 {
 
   .feature-grid {
     grid-template-columns: 1fr;
+  }
+
+  .product-showcase {
+    grid-template-columns: 1fr;
+  }
+
+  .product-visual {
+    justify-content: flex-start;
+  }
+
+  .product-visual img {
+    width: min(220px, 80%);
   }
 }

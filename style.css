@@ -203,7 +203,7 @@ h3 {
 }
 
 .product-visual img {
-  width: min(240px, 100%);
+  width: min(180px, 70%);
   height: auto;
   display: block;
 }
@@ -278,12 +278,12 @@ h3 {
   }
 
   .product-visual img {
-    width: min(150px, 55%);
+    width: min(120px, 45%);
     margin: 0 auto;
   }
 
   .piclyst-wordmark {
-    width: min(190px, 62%);
-    margin-bottom: 18px;
+    width: min(180px, 62%);
+    margin-bottom: 16px;
   }
 }

@@ -203,9 +203,12 @@ h3 {
 }
 
 .product-visual img {
-  width: min(180px, 70%);
+  width: min(150px, 62%);
   height: auto;
   display: block;
+  padding: 14px;
+  background: #ffffff;
+  border-radius: 22px;
 }
 
 .piclyst-wordmark {
@@ -277,10 +280,13 @@ h3 {
     justify-content: center;
   }
 
-  .product-visual img {
-    width: min(120px, 45%);
-    margin: 0 auto;
-  }
+.product-visual img {
+  width: min(110px, 42%);
+  margin: 0 auto;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 18px;
+}
 
   .piclyst-wordmark {
     width: min(180px, 62%);
